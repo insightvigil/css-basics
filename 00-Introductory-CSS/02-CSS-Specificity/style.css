@@ -1,0 +1,47 @@
+/*Global styles*/
+/*Type selector*/
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial',sans-serif;
+    background-color: whitesmoke;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+div {
+    border: 1px solid lightgrey;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: white;
+    color:black;
+}
+
+/*Class selector (More specific than type )*/
+.highlight {
+    color: black;
+
+}
+
+/*Cascade */
+.highlight {
+    color:orangered;
+}
+
+/*ID selector (More specific than class*/
+
+#special1, #special2 {
+    font-weight: bold;
+    color: green;
+}
+
+/*Inline style will be the most specific (added directly to the file*/
+
+/*!important can override anythng that doesn't already have !important is the worst way to apply CSS*/
